@@ -1,12 +1,11 @@
 {
-  "version": 1,
   "lastUpdated": "2026-03-16",
   "phases": [
     {
       "id": "foundation",
       "title": "Phase 1: Foundation",
-      "subtitle": "Platform, Tech Stack & Strategy",
-      "accentColor": "#2F3E46",
+      "subtitle": "Days 1–7 — Set up your platform and tools",
+      "accentColor": "#52796F",
       "days": "Days 1–7",
       "sections": [
         {
@@ -17,134 +16,169 @@
               "id": "k1",
               "text": "Start Kajabi free trial (30 days) at kajabi.com",
               "priority": "high",
+              "notes": "",
               "subtasks": [
                 { "id": "k1a", "text": "Go to kajabi.com and click 'Start Free Trial'" },
                 { "id": "k1b", "text": "Enter your name, email (use ann@yogaismedicine.com), and create a password" },
                 { "id": "k1c", "text": "Select 'Coaching or Courses' as your business type" },
-                { "id": "k1d", "text": "Skip the credit card step if prompted — you have 30 days free" },
-                { "id": "k1e", "text": "Confirm your email address via the verification link Kajabi sends you" }
+                { "id": "k1d", "text": "Skip the credit card step if prompted — your 30-day trial is free" },
+                { "id": "k1e", "text": "You will land on your Kajabi Dashboard — this is your home base" }
               ]
             },
             {
               "id": "k2",
               "text": "Complete Kajabi onboarding wizard",
               "priority": "high",
+              "notes": "",
               "subtasks": [
-                { "id": "k2a", "text": "Step 1 — Business name: enter 'Yoga Is Medicine'" },
-                { "id": "k2b", "text": "Step 2 — What do you sell: select 'Online Courses'" },
-                { "id": "k2c", "text": "Step 3 — Your goal: select 'Grow my audience' or 'Make my first sale'" },
-                { "id": "k2d", "text": "Step 4 — Upload your logo (use your existing Yoga Is Medicine logo file)" },
-                { "id": "k2e", "text": "Step 5 — Choose your website theme: select the cleanest/simplest option — you will customize colors next" },
-                { "id": "k2f", "text": "Step 6 — Set your brand colors: Primary #52796F, Secondary #354F52, Accent #84A89C, Background #F7F5F2, Text #2F3E46" },
-                { "id": "k2g", "text": "Step 7 — Skip the 'Create your first product' step for now — click 'I'll do this later'" },
-                { "id": "k2h", "text": "Step 8 — Confirm your time zone is set to your local time (important for email scheduling)" },
-                { "id": "k2i", "text": "Click 'Go to my dashboard' — your Kajabi home base is now set up" }
+                { "id": "k2a", "text": "ENTER YOUR BUSINESS NAME: From your Dashboard → click 'Settings' (bottom-left sidebar) → click 'Site Details' → find the 'Site Title' field → type 'Yoga Is Medicine' → click Save" },
+                { "id": "k2b", "text": "SET YOUR SUPPORT EMAIL: Still in Settings → Site Details → scroll to 'Support Contact Information' → enter ann@yogaismedicine.com in the Support Email field → click Save" },
+                { "id": "k2c", "text": "SET YOUR LANGUAGE: Still in Settings → Site Details → scroll to 'Language' → confirm English is selected → click Save" },
+                { "id": "k2d", "text": "UPLOAD YOUR LOGO: From Dashboard → Settings → Site Details → scroll to 'Logo' section → click 'Upload Logo' → select your Yoga Is Medicine logo file from your computer → click Save" },
+                { "id": "k2e", "text": "SET BRAND COLORS: From Dashboard → Settings → Site Details → scroll to 'Colors' section → click each color block and enter your hex codes: Primary #52796F, Secondary #84A89C, Accent #354F52, Background #CAD2C5 → click Save" },
+                { "id": "k2f", "text": "CONNECT YOUR DOMAIN: From Dashboard → Settings → Site Details → click 'Manage Domain' → if using yogaismedicine.com, follow the prompts to connect it; if keeping a mykajabi subdomain for now, choose your preferred subdomain name → click Save" },
+                { "id": "k2g", "text": "SET UP EMAIL SENDER: From Dashboard → Settings (bottom-left) → click 'Marketing Settings' → scroll to 'Email Settings' → enter From Name: Ann Chrapkiewicz, From Email: ann@yogaismedicine.com, Reply-To: ann@yogaismedicine.com → click Save" },
+                { "id": "k2h", "text": "CONNECT STRIPE: From Dashboard → Settings → click 'Integrations & Webhooks' → scroll to 'Third-party payment provider' → click 'View third-party payment provider' → click 'Connect' → log in with your existing Stripe account or create a new one → follow on-screen prompts → click Submit when done" },
+                { "id": "k2i", "text": "CONNECT MAILCHIMP: From Dashboard → Settings → click 'Third Party Integrations' → find Mailchimp → toggle it ON → paste your Mailchimp API key: [YOUR-MAILCHIMP-API-KEY] → click Save" }
               ]
             },
             {
               "id": "k3",
-              "text": "Upload your logo and set brand colors (#CAD2C5, #84A89C, #52796F, #354F52, #2F3E46)",
+              "text": "Set up global branding (fonts and colors) in Kajabi Style Guide",
+              "priority": "high",
+              "notes": "",
               "subtasks": [
-                { "id": "k3a", "text": "In Kajabi dashboard: go to Settings → Appearance" },
-                { "id": "k3b", "text": "Upload your logo file (PNG with transparent background works best)" },
-                { "id": "k3c", "text": "Set Primary color: #52796F" },
-                { "id": "k3d", "text": "Set Secondary color: #354F52" },
-                { "id": "k3e", "text": "Set Accent color: #84A89C" },
-                { "id": "k3f", "text": "Save changes and preview your site to confirm colors look correct" }
+                { "id": "k3a", "text": "From your Dashboard → click 'Website' in the left sidebar → click 'Theme'" },
+                { "id": "k3b", "text": "Click 'Customize' on your active theme" },
+                { "id": "k3c", "text": "Click 'Style Guide' or 'Global Styles' in the theme editor left panel" },
+                { "id": "k3d", "text": "Under Typography → set Heading Font to a serif font (closest to Mendl Sans: try Playfair Display or Cormorant Garamond)" },
+                { "id": "k3e", "text": "Under Typography → set Body Font to a clean sans-serif (try DM Sans or Lato)" },
+                { "id": "k3f", "text": "Under Colors → enter your brand hex codes: #52796F (primary), #84A89C (secondary), #354F52 (dark), #CAD2C5 (light background)" },
+                { "id": "k3g", "text": "Click 'Save' and then 'Publish' to apply changes to your site" }
               ]
             },
             {
               "id": "k4",
-              "text": "Set up your custom domain (e.g., learn.yogaismedicine.com)",
+              "text": "Add logo to email templates in Kajabi",
+              "priority": "medium",
+              "notes": "",
               "subtasks": [
-                { "id": "k4a", "text": "In Kajabi: go to Settings → Domains" },
-                { "id": "k4b", "text": "Click 'Add Custom Domain'" },
-                { "id": "k4c", "text": "Enter: learn.yogaismedicine.com" },
-                { "id": "k4d", "text": "Kajabi will give you DNS records — copy them" },
-                { "id": "k4e", "text": "Log into your domain registrar (wherever yogaismedicine.com is registered)" },
-                { "id": "k4f", "text": "Add the CNAME record Kajabi provided to your DNS settings" },
-                { "id": "k4g", "text": "Return to Kajabi and click 'Verify' — DNS can take up to 48 hours to propagate" }
-              ]
-            },
-            {
-              "id": "k5",
-              "text": "Connect your Stripe account to Kajabi for payment processing",
-              "subtasks": [
-                { "id": "k5a", "text": "In Kajabi: go to Settings → Payments" },
-                { "id": "k5b", "text": "Click 'Connect with Stripe'" },
-                { "id": "k5c", "text": "If you don't have a Stripe account: go to stripe.com and create one (free, takes 5 minutes)" },
-                { "id": "k5d", "text": "Authorize Kajabi to connect to your Stripe account" },
-                { "id": "k5e", "text": "Set your currency to USD" },
-                { "id": "k5f", "text": "Test the connection by creating a $0 test product and running a test checkout" }
-              ]
-            },
-            {
-              "id": "k6",
-              "text": "Set up your Kajabi email sender address",
-              "subtasks": [
-                { "id": "k6a", "text": "In Kajabi: go to Settings → Email" },
-                { "id": "k6b", "text": "Set 'From Name' to: Ann Chrapkiewicz" },
-                { "id": "k6c", "text": "Set 'From Email' to: ann@yogaismedicine.com" },
-                { "id": "k6d", "text": "Verify your email domain — Kajabi will send a verification link" },
-                { "id": "k6e", "text": "Add the SPF and DKIM records Kajabi provides to your domain DNS (improves email deliverability)" }
-              ]
-            },
-            {
-              "id": "k7",
-              "text": "Review Kajabi's email and pipeline tools vs. Mailchimp",
-              "subtasks": [
-                { "id": "k7a", "text": "In Kajabi: click 'Email' in the left sidebar — explore the broadcast and sequence options" },
-                { "id": "k7b", "text": "In Kajabi: click 'Pipelines' — this is Kajabi's funnel builder (replaces Unbounce for funnel pages)" },
-                { "id": "k7c", "text": "Decision: keep Mailchimp for your 2,329-subscriber broadcast list for now" },
-                { "id": "k7d", "text": "Use Kajabi email only for automated sequences triggered by course purchases or lead magnet downloads" },
-                { "id": "k7e", "text": "Note your decision in a simple doc: 'Mailchimp = broadcast to full list. Kajabi = automated sequences for buyers.'" }
+                { "id": "k4a", "text": "From Dashboard → Settings (bottom-left) → click 'Email Templates' under Site Settings" },
+                { "id": "k4b", "text": "Click 'Branding' next to the Templates tab" },
+                { "id": "k4c", "text": "Upload your logo in the Logo field" },
+                { "id": "k4d", "text": "Set your brand colors to match: Primary #52796F, Background #CAD2C5" },
+                { "id": "k4e", "text": "Click Save — all automated Kajabi emails will now show your logo and colors" }
               ]
             }
           ]
         },
         {
-          "id": "tech-stack",
-          "title": "Tech Stack Audit & Streamlining",
+          "id": "kajabi-mailchimp",
+          "title": "Kajabi–Mailchimp Integration",
           "items": [
             {
-              "id": "t1",
-              "text": "List every tool you currently pay for: Mailchimp, Unbounce, Zapier, Vimeo, website hosting",
+              "id": "km1",
+              "text": "Connect Kajabi to Mailchimp so new subscribers and buyers sync automatically",
               "priority": "high",
+              "notes": "",
               "subtasks": [
-                { "id": "t1a", "text": "Open your bank or credit card statement and find all recurring subscriptions" },
-                { "id": "t1b", "text": "List each tool, its monthly cost, and what you use it for" },
-                { "id": "t1c", "text": "Total your current monthly tech spend — this is your baseline" }
+                { "id": "km1a", "text": "STEP 1 — Enable integration: Dashboard → Settings → Third Party Integrations → find Mailchimp → toggle ON → paste API key: [YOUR-MAILCHIMP-API-KEY] → click Save" },
+                { "id": "km1b", "text": "STEP 2 — Get your Mailchimp Audience ID: Log into Mailchimp → Audience → All Contacts → Settings → Audience name and defaults → copy the Audience ID (a string like 'abc123def4')" },
+                { "id": "km1c", "text": "STEP 3 — Connect your opt-in form: Dashboard → Marketing → Forms → open your lead magnet opt-in form → check 'Send the contact to a third party email provider' → select Mailchimp → paste your Audience ID → click Save" },
+                { "id": "km1d", "text": "STEP 4 — Connect your offer (course purchase): Dashboard → Products → your mini-course → Settings → After Purchase → check 'Send to third party email provider' → select Mailchimp → paste Audience ID → click Save" },
+                { "id": "km1e", "text": "STEP 5 — Test the integration: submit a test form entry on your Kajabi opt-in page → check Mailchimp Audience within 5 minutes to confirm the contact appeared" },
+                { "id": "km1f", "text": "STEP 6 — Tell Manus (me) once this is live: I will set up the Mailchimp tags so buyers are tagged 'kajabi-customer' and lead magnet downloaders are tagged 'lead-magnet' automatically" }
               ]
             },
-            { "id": "t2", "text": "Decide which tools Kajabi replaces (landing pages, course hosting, basic email sequences)" },
-            { "id": "t3", "text": "Keep Mailchimp for your main broadcast list (2,329 subscribers) — do NOT migrate yet" },
-            { "id": "t4", "text": "Keep Vimeo for class recordings — Kajabi embeds Vimeo videos directly" },
-            { "id": "t5", "text": "Evaluate Unbounce: Kajabi's landing pages may replace it for funnel pages" },
             {
-              "id": "t6",
-              "text": "Set up Zapier: new Kajabi purchase → add 'customer' tag in Mailchimp",
+              "id": "km2",
+              "text": "Set up Mailchimp tags for Kajabi buyers and lead magnet subscribers",
+              "priority": "high",
+              "notes": "",
               "subtasks": [
-                { "id": "t6a", "text": "Go to zapier.com and log in (or create a free account)" },
-                { "id": "t6b", "text": "Click 'Create Zap'" },
-                { "id": "t6c", "text": "Trigger: Kajabi → New Purchase" },
-                { "id": "t6d", "text": "Action: Mailchimp → Add/Update Subscriber → add tag 'customer'" },
-                { "id": "t6e", "text": "Test the Zap with a test purchase" },
-                { "id": "t6f", "text": "Turn the Zap on" }
+                { "id": "km2a", "text": "This step is handled by Manus — tell me when your Kajabi-Mailchimp connection is live and I will create the tags and automation rules via the Mailchimp API" },
+                { "id": "km2b", "text": "Tags I will create: 'kajabi-customer', 'lead-magnet-downloaded', 'mini-course-buyer', 'email-sequence-active'" },
+                { "id": "km2c", "text": "I will also set up a webhook so any new Kajabi purchase automatically updates the subscriber's Mailchimp tags within minutes" }
               ]
-            },
-            { "id": "t7", "text": "Document your final tech stack decision in a one-page reference doc" }
+            }
           ]
         },
         {
-          "id": "content-audit",
-          "title": "Content Audit & Intellectual Property",
+          "id": "stripe-setup",
+          "title": "Stripe Payment Setup",
           "items": [
-            { "id": "c1", "text": "List all your existing Vimeo classes by category (beginner, intermediate, therapeutic, etc.)", "priority": "high" },
-            { "id": "c2", "text": "Identify your top 10–15 most-watched or most-requested classes — these become your first course", "priority": "high" },
-            { "id": "c3", "text": "Note your unique methodologies: Internal Literacy, fascia/connective tissue work, Gil Hedley framework, Mary Jarvis Shapeshifting" },
-            { "id": "c4", "text": "Draft a one-paragraph 'unique teaching philosophy' statement for your About/Sales pages" },
-            { "id": "c5", "text": "Identify 3–5 student transformation stories to use as testimonials in your funnel" },
-            { "id": "c6", "text": "Copyright note: your class recordings, written materials, and methodology descriptions are automatically protected" }
+            {
+              "id": "st1",
+              "text": "Create or connect your Stripe account",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "st1a", "text": "Go to stripe.com — if you have an account, log in; if not, click 'Start now' and create one with ann@yogaismedicine.com" },
+                { "id": "st1b", "text": "Complete Stripe's identity verification: provide your legal name, date of birth, address, and SSN (last 4 digits) — this is required to receive payouts" },
+                { "id": "st1c", "text": "Add your bank account for payouts: Stripe Dashboard → Settings → Bank accounts and scheduling → Add bank account" },
+                { "id": "st1d", "text": "Set payout schedule: Stripe Dashboard → Settings → Bank accounts and scheduling → change to 'Daily' or 'Weekly' based on your preference" },
+                { "id": "st1e", "text": "Note your Stripe account email — you will need it when connecting to Kajabi in the next step" }
+              ]
+            },
+            {
+              "id": "st2",
+              "text": "Connect Stripe to Kajabi",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "st2a", "text": "From Kajabi Dashboard → Settings (bottom-left) → click 'Integrations & Webhooks'" },
+                { "id": "st2b", "text": "Scroll to 'Third-party payment provider' section → click 'View third-party payment provider'" },
+                { "id": "st2c", "text": "Click 'Connect' → you will be redirected to Stripe" },
+                { "id": "st2d", "text": "If you have an existing Stripe account: click 'Log in to Stripe' → enter your Stripe email and password → select your account → click Connect" },
+                { "id": "st2e", "text": "If creating a new Stripe account: click 'Create Stripe account' → enter your email and password → click Continue → follow on-screen instructions" },
+                { "id": "st2f", "text": "After connecting, you will be redirected back to Kajabi's Payments page — confirm it shows 'Connected'" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "content-planning",
+          "title": "Content & Course Planning",
+          "items": [
+            {
+              "id": "cp1",
+              "text": "Define your mini-course title and core promise",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "cp1a", "text": "Working title: 'Internal Literacy: A 4-Week Practice' — confirm or refine this" },
+                { "id": "cp1b", "text": "Write your one-sentence promise: 'In 4 weeks, you will learn to read your body from the inside out — so your practice becomes a conversation, not a performance'" },
+                { "id": "cp1c", "text": "Define your ideal student: someone who has been practicing yoga for 1–5 years and feels like they're doing the poses correctly but not feeling them deeply" },
+                { "id": "cp1d", "text": "Set your price point: $47 for the mini-course (confirm this is right for your audience)" },
+                { "id": "cp1e", "text": "Write this all down in the Notes field above so you can reference it throughout the build" }
+              ]
+            },
+            {
+              "id": "cp2",
+              "text": "Outline the 4 modules of your mini-course",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "cp2a", "text": "Module 1: What is Internal Literacy? — the concept, why it matters, what changes when you have it" },
+                { "id": "cp2b", "text": "Module 2: The Breath as Your First Teacher — pranayama as internal sensing, not performance" },
+                { "id": "cp2c", "text": "Module 3: Reading a Posture from the Inside — pick 3–4 key postures (e.g., Standing Bow, Triangle, Savasana) and teach the internal experience of each" },
+                { "id": "cp2d", "text": "Module 4: Building a Daily Internal Practice — how to carry this into every class and every day" },
+                { "id": "cp2e", "text": "Each module: 2–3 short videos (10–20 min each), one reflection prompt, one practice assignment" }
+              ]
+            },
+            {
+              "id": "cp3",
+              "text": "Record Module 1 videos using your existing Vimeo setup",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": [
+                { "id": "cp3a", "text": "Set up your recording space: good natural light, clean background, your usual teaching environment" },
+                { "id": "cp3b", "text": "Record Video 1 (10–15 min): Introduction to Internal Literacy — what it is, your story, why you teach it" },
+                { "id": "cp3c", "text": "Record Video 2 (10–15 min): The difference between external and internal cues — demonstrate with one posture" },
+                { "id": "cp3d", "text": "Record Video 3 (5–10 min): Your invitation to the student — what to expect, how to approach the course" },
+                { "id": "cp3e", "text": "Upload to Vimeo → set privacy to 'Only people with the private link' → copy the embed links for Kajabi" }
+              ]
+            }
           ]
         }
       ]
@@ -152,126 +186,428 @@
     {
       "id": "content",
       "title": "Phase 2: Content Creation",
-      "subtitle": "Lead Magnet, Course & Supporting Documents",
-      "accentColor": "#354F52",
-      "days": "Days 8–16",
+      "subtitle": "Days 8–18 — Build your lead magnet and course",
+      "accentColor": "#84A89C",
+      "days": "Days 8–18",
       "sections": [
         {
           "id": "lead-magnet",
-          "title": "Free Lead Magnet (Your List-Builder)",
+          "title": "Lead Magnet — Free PDF Guide",
           "items": [
-            { "id": "lm1", "text": "Choose your lead magnet format: PDF guide, mini video series, or short workshop recording", "priority": "high" },
-            { "id": "lm2", "text": "Recommended title: 'The 5 Postures That Changed Everything: A Guide to Internal Literacy'", "priority": "high" },
-            { "id": "lm3", "text": "Write the lead magnet content (5–8 pages): your unique framework, 5 key postures, what to feel for internally" },
-            { "id": "lm4", "text": "Design the PDF cover in Canva using brand colors and your photo" },
-            { "id": "lm5", "text": "Upload the finished PDF to Kajabi as a free product" },
-            { "id": "lm6", "text": "Create the opt-in landing page in Kajabi: headline, 3 bullet points, your photo, opt-in form" },
-            { "id": "lm7", "text": "Test the opt-in form — confirm the PDF delivers automatically via email" }
+            {
+              "id": "lm1",
+              "text": "Write the free guide: '5 Postures That Changed Everything'",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "lm1a", "text": "Open a new document in Google Docs or Word" },
+                { "id": "lm1b", "text": "Title page: '5 Postures That Changed Everything — An Internal Literacy Guide by Ann Chrapkiewicz'" },
+                { "id": "lm1c", "text": "Introduction (1 page): your story — why these 5 postures, what internal literacy means, what the reader will gain" },
+                { "id": "lm1d", "text": "For each of the 5 postures (1–2 pages each): posture name, external cue vs. internal experience, what to feel for, one reflection question" },
+                { "id": "lm1e", "text": "Suggested postures: Standing Bow, Triangle, Camel, Savasana, Child's Pose — adjust to your teaching" },
+                { "id": "lm1f", "text": "Closing page: brief bio, website URL, invitation to your mini-course, and a warm sign-off in your voice" },
+                { "id": "lm1g", "text": "Tell Manus (me) when the text is written — I will help you refine the language to match your teaching voice" }
+              ]
+            },
+            {
+              "id": "lm2",
+              "text": "Design the PDF guide using Adobe Express or Adobe InDesign",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "lm2a", "text": "ADOBE EXPRESS (recommended for speed): Go to express.adobe.com → click 'Create new' → choose 'Document' or 'PDF' → search templates for 'wellness guide' or 'yoga guide'" },
+                { "id": "lm2b", "text": "ADOBE INDESIGN (recommended for quality): Open InDesign → File → New Document → set size to Letter (8.5x11) or A4 → set up a 2-column layout with your brand colors" },
+                { "id": "lm2c", "text": "Apply your brand colors: #CAD2C5 (background), #52796F (headings), #2F3E46 (body text), #84A89C (accents)" },
+                { "id": "lm2d", "text": "Use Mendl Sans Dusk for headings (you have Adobe, so it's available in your font library) and a clean serif for body text" },
+                { "id": "lm2e", "text": "Add your Colorado mountain portrait photo on the cover or introduction page" },
+                { "id": "lm2f", "text": "Export as PDF: File → Export → Adobe PDF (Print) → click Export — save as 'YIM-5-Postures-Guide.pdf'" },
+                { "id": "lm2g", "text": "Upload the PDF to Kajabi: Dashboard → Products → click '+' → choose 'Download' → upload your PDF → set price to Free → publish" }
+              ]
+            },
+            {
+              "id": "lm3",
+              "text": "Create the opt-in landing page in Kajabi",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "lm3a", "text": "From Kajabi Dashboard → click 'Marketing' in the left sidebar → click 'Landing Pages'" },
+                { "id": "lm3b", "text": "Click 'New Landing Page' → choose a simple opt-in template" },
+                { "id": "lm3c", "text": "Headline: 'Download Your Free Guide: 5 Postures That Changed Everything'" },
+                { "id": "lm3d", "text": "Subheadline: 'A free Internal Literacy guide from Ann Chrapkiewicz — learn to feel your practice from the inside out'" },
+                { "id": "lm3e", "text": "Form fields: First Name + Email only (keep it simple)" },
+                { "id": "lm3f", "text": "Button text: 'Send Me the Free Guide'" },
+                { "id": "lm3g", "text": "Add your Colorado mountain portrait or a yoga image as the page background or sidebar image" },
+                { "id": "lm3h", "text": "Connect the form to Mailchimp: check 'Send to third party email provider' → select Mailchimp → paste your Audience ID → click Save" },
+                { "id": "lm3i", "text": "Publish the page → copy the URL → this is the link you will share in all your emails and social posts" }
+              ]
+            },
+            {
+              "id": "lm4",
+              "text": "Create a Thank You page in Kajabi (post opt-in)",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": [
+                { "id": "lm4a", "text": "From Kajabi Dashboard → Marketing → Landing Pages → New Landing Page → choose 'Thank You' template" },
+                { "id": "lm4b", "text": "Headline: 'Your guide is on its way!'" },
+                { "id": "lm4c", "text": "Body: 'Check your inbox for an email from ann@yogaismedicine.com — your free guide is attached. While you wait, here is something I want you to know...'" },
+                { "id": "lm4d", "text": "Add a brief personal note in your voice — 2–3 sentences about what you hope they discover in the guide" },
+                { "id": "lm4e", "text": "Optional: add a soft mention of your mini-course — 'If you want to go deeper, I am building something just for you...'" },
+                { "id": "lm4f", "text": "Publish the page → go back to your opt-in form settings → set the redirect URL to this Thank You page URL" }
+              ]
+            }
           ]
         },
         {
-          "id": "low-ticket",
-          "title": "Low-Ticket Offer ($47): Mini-Course",
+          "id": "mini-course",
+          "title": "Mini-Course Build in Kajabi",
           "items": [
-            { "id": "lt1", "text": "Course title: 'Internal Literacy: A 4-Week Introduction to Feeling Your Practice From the Inside Out'", "priority": "high" },
-            { "id": "lt2", "text": "Outline 4 modules: Week 1 — The Spine, Week 2 — The Hips, Week 3 — The Shoulders, Week 4 — Integration" },
-            { "id": "lt3", "text": "Select 3–4 existing Vimeo class recordings per module that best illustrate each theme" },
-            { "id": "lt4", "text": "Record a short intro video for each module (5–10 min) — just you talking to camera" },
-            { "id": "lt5", "text": "Write a brief 'What You'll Feel' description for each class in the module" },
-            { "id": "lt6", "text": "Build the course in Kajabi: create product, add modules, embed Vimeo videos" },
-            { "id": "lt7", "text": "Set price at $47 — test checkout flow with a $0 coupon code" },
-            { "id": "lt8", "text": "Write the sales page: headline, your story, what's included, transformation promise, testimonials, price, FAQ" }
+            {
+              "id": "mc1",
+              "text": "Create your mini-course product in Kajabi",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "mc1a", "text": "From Kajabi Dashboard → click 'Products' in the left sidebar → click the '+' button → select 'Mini Course'" },
+                { "id": "mc1b", "text": "Title: 'Internal Literacy: A 4-Week Practice' (or your confirmed title)" },
+                { "id": "mc1c", "text": "Description: write 2–3 paragraphs describing what students will learn, feel, and experience — use your teaching voice" },
+                { "id": "mc1d", "text": "Thumbnail image: upload a photo of yourself teaching or your Colorado mountain portrait — this appears in your course library" },
+                { "id": "mc1e", "text": "Click 'Save' — your course shell is now created" }
+              ]
+            },
+            {
+              "id": "mc2",
+              "text": "Build Module 1 in Kajabi",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "mc2a", "text": "Inside your course → click 'Add Section' → name it 'Module 1: What is Internal Literacy?'" },
+                { "id": "mc2b", "text": "Click 'Add Post' → name it 'Welcome + Introduction' → click the video icon → paste your Vimeo embed link for Video 1" },
+                { "id": "mc2c", "text": "Add a text block below the video with your reflection prompt for Module 1" },
+                { "id": "mc2d", "text": "Repeat for Video 2 and Video 3 — each gets its own Post within Module 1" },
+                { "id": "mc2e", "text": "Click 'Save' after each post — you can preview how it looks by clicking the eye icon" }
+              ]
+            },
+            {
+              "id": "mc3",
+              "text": "Set pricing and create your Offer in Kajabi",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "mc3a", "text": "From Dashboard → Products → your course → click 'Offers' tab → click 'New Offer'" },
+                { "id": "mc3b", "text": "Offer name: 'Internal Literacy Mini-Course — $47'" },
+                { "id": "mc3c", "text": "Price: $47 one-time payment" },
+                { "id": "mc3d", "text": "Select which products are included: check your mini-course" },
+                { "id": "mc3e", "text": "After purchase settings: check 'Send to third party email provider' → select Mailchimp → paste Audience ID → this tags buyers in Mailchimp automatically" },
+                { "id": "mc3f", "text": "Click Save → click Publish → copy the checkout URL — this is your sales link" }
+              ]
+            },
+            {
+              "id": "mc4",
+              "text": "Create your sales/checkout page in Kajabi",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "mc4a", "text": "From Dashboard → Marketing → Landing Pages → New Landing Page → choose a Sales Page template" },
+                { "id": "mc4b", "text": "Headline: 'Internal Literacy: A 4-Week Practice' — subtitle: 'Learn to feel your yoga from the inside out'" },
+                { "id": "mc4c", "text": "Add sections: What you will learn, Who this is for, What is inside (module breakdown), About Ann (short bio + photo), Price + CTA button" },
+                { "id": "mc4d", "text": "CTA button text: 'Begin Your Practice — $47' → link it to your Kajabi Offer checkout URL" },
+                { "id": "mc4e", "text": "Apply your brand colors and upload your portrait photo" },
+                { "id": "mc4f", "text": "Publish the page → copy the URL → this is what you will link to in your sales emails" }
+              ]
+            }
           ]
         },
         {
-          "id": "high-ticket",
-          "title": "High-Ticket Offer ($297–$497): Signature Course",
+          "id": "design-assets",
+          "title": "Design Assets (Adobe)",
           "items": [
-            { "id": "ht1", "text": "Course title: 'Yoga Is Medicine: The Complete Internal Literacy Training'", "priority": "high" },
-            { "id": "ht2", "text": "Outline 8–12 modules covering your full methodology: anatomy, fascia, nervous system, therapeutic applications" },
-            { "id": "ht3", "text": "This course does NOT need to be complete before launch — build it as students enroll (cohort model)" },
-            { "id": "ht4", "text": "Set founding member price: $297 for first 20 students, then $497 regular" },
-            { "id": "ht5", "text": "Write a one-page course overview document for sales conversations and emails" },
-            { "id": "ht6", "text": "Decide on delivery format: self-paced, live cohort, or hybrid (recommend: live cohort for first round)" }
-          ]
-        },
-        {
-          "id": "content-plan",
-          "title": "12-Month Content Production Plan",
-          "items": [
-            { "id": "cp1", "text": "Free content schedule: 2 emails/month to full list, 3 Instagram posts/week, 1 YouTube video/month" },
-            { "id": "cp2", "text": "Email topics bank: Internal Literacy series, Gil Hedley anatomy insights, student transformation stories, posture deep-dives" },
-            { "id": "cp3", "text": "Instagram content pillars: Teaching clips, Anatomy education, Student stories, Behind-the-scenes, Philosophy/quotes" },
-            { "id": "cp4", "text": "YouTube strategy: longer-form 'why' videos — 'Why We Lock the Knee,' 'What Fascia Actually Is'" },
-            { "id": "cp5", "text": "Batch content creation: dedicate one day/month to filming 4–6 short videos and writing 2 emails" },
-            { "id": "cp6", "text": "Repurpose rule: every email → 2 Instagram captions; every YouTube video → 3 short clips" }
+            {
+              "id": "da1",
+              "text": "Create social media graphics for the lead magnet launch using Adobe Express",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": [
+                { "id": "da1a", "text": "Go to express.adobe.com → click 'Create new' → choose 'Social Media Post'" },
+                { "id": "da1b", "text": "Select Instagram Post size (1080x1080) → search for a clean, minimal template" },
+                { "id": "da1c", "text": "Apply brand colors: background #CAD2C5, text #2F3E46, accent #52796F" },
+                { "id": "da1d", "text": "Text: 'Free Guide: 5 Postures That Changed Everything — Download at [your link]'" },
+                { "id": "da1e", "text": "Use Mendl Sans Dusk for the headline (available in your Adobe fonts library)" },
+                { "id": "da1f", "text": "Create 3 variations: one with your photo, one text-only, one with a yoga pose image" },
+                { "id": "da1g", "text": "Download as PNG → save to your phone and computer for posting" }
+              ]
+            },
+            {
+              "id": "da2",
+              "text": "Create email header image for Mailchimp campaigns using Adobe Express",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": [
+                { "id": "da2a", "text": "Go to express.adobe.com → Create new → choose 'Email Header' (600x200px is standard for Mailchimp)" },
+                { "id": "da2b", "text": "Design: your logo on the left, 'Yoga Is Medicine' text on the right, brand color background #CAD2C5" },
+                { "id": "da2c", "text": "Keep it simple and clean — this appears at the top of every email I send for you" },
+                { "id": "da2d", "text": "Download as PNG → send the file to Manus (me) and I will upload it to your Mailchimp template" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "id": "email",
+      "id": "email-funnel",
       "title": "Phase 3: Email Funnel",
-      "subtitle": "Re-Engagement, Nurture & Sales Sequences",
-      "accentColor": "#52796F",
-      "days": "Days 17–23",
+      "subtitle": "Days 19–25 — Your 7-email sequence",
+      "accentColor": "#354F52",
+      "days": "Days 19–25",
       "sections": [
         {
           "id": "email1",
           "title": "Email 1 — Re-Engagement (Ready to Send)",
           "items": [
-            { "id": "e1a", "text": "✅ COMPLETE: Email 1 drafted, photos added, test sent to ann@yogaismedicine.com", "priority": "high" },
-            { "id": "e1b", "text": "Review the test email in your inbox — confirm photos display correctly", "priority": "high" },
-            { "id": "e1c", "text": "Log into Mailchimp → Campaigns → 'Email 1 — Re-Engagement (Restored Draft)'" },
-            { "id": "e1d", "text": "Click Schedule or Send — recommended: Tuesday or Wednesday, 9–11am" },
-            { "id": "e1e", "text": "After sending: monitor open rate (goal: 25%+) and reply rate (goal: 5+ replies)" }
+            {
+              "id": "e1a",
+              "text": "✅ COMPLETE: Email 1 drafted, photos added, test sent to ann@yogaismedicine.com",
+              "priority": "high",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "e1b",
+              "text": "Review the test email in your inbox — confirm photos display correctly and links work",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "e1b1", "text": "Open your inbox at ann@yogaismedicine.com" },
+                { "id": "e1b2", "text": "Find the test email from Mailchimp — subject line starts with '[Test]'" },
+                { "id": "e1b3", "text": "Check: do both photos display? Is the text readable? Do any links work?" },
+                { "id": "e1b4", "text": "Check on your phone too — confirm it looks good on mobile" },
+                { "id": "e1b5", "text": "If anything looks wrong, tell Manus (me) and I will fix it in Mailchimp before you send" }
+              ]
+            },
+            {
+              "id": "e1c",
+              "text": "Log into Mailchimp → Campaigns → find 'Email 1 — Re-Engagement' → click Send",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "e1c1", "text": "Go to mailchimp.com → log in with ann.chrapkiewicz@gmail.com" },
+                { "id": "e1c2", "text": "Click 'Campaigns' in the top navigation" },
+                { "id": "e1c3", "text": "Find 'Email 1 — Re-Engagement (Restored Dreams)' in your campaign list" },
+                { "id": "e1c4", "text": "Click the dropdown arrow next to it → click 'Schedule' or 'Send'" },
+                { "id": "e1c5", "text": "Best send time: Tuesday or Wednesday between 9–11am your local time" },
+                { "id": "e1c6", "text": "Confirm your audience is set to your full list (2,329 subscribers) → click 'Send Now' or schedule it" }
+              ]
+            },
+            {
+              "id": "e1d",
+              "text": "After sending: monitor open rate (goal: 25%+) and reply rate (goal: 5+ replies)",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": [
+                { "id": "e1d1", "text": "24 hours after sending: Mailchimp → Campaigns → click on Email 1 → click 'View Report'" },
+                { "id": "e1d2", "text": "Check: Open Rate (good = 25%+), Click Rate (good = 2%+), Unsubscribes (normal = under 0.5%)" },
+                { "id": "e1d3", "text": "Read any replies that come to ann@yogaismedicine.com — these are gold. Reply personally to each one" },
+                { "id": "e1d4", "text": "Tell Manus (me) the open rate and any notable replies — I will use this to refine Email 2" }
+              ]
+            }
           ]
         },
         {
           "id": "email2",
           "title": "Email 2 — Internal Literacy Introduction",
           "items": [
-            { "id": "e2a", "text": "Subject line: 'The thing I've been trying to teach for 20 years has a name'", "priority": "high" },
-            { "id": "e2b", "text": "Opening: Reference replies from Email 1 — 'So many of you wrote back, and I read every single one.'" },
-            { "id": "e2c", "text": "Body: Introduce the concept of Internal Literacy — what it means, why it changes everything" },
-            { "id": "e2d", "text": "Include one specific example: a posture (e.g., Standing Bow) and what you're asking students to feel internally" },
-            { "id": "e2e", "text": "Photo: Use the Colorado mountain portrait (close-up) — warm, thoughtful, personal" },
-            { "id": "e2f", "text": "Soft CTA: 'Reply and tell me — what posture do you most want to understand from the inside out?'" },
-            { "id": "e2g", "text": "P.S.: Mention you're working on a guide — plant the seed for the lead magnet" }
+            {
+              "id": "e2a",
+              "text": "Subject line: 'The thing I've been trying to teach for 20 years has a name'",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "e2a1", "text": "This email is ready to be built in Mailchimp — tell Manus (me) when you are ready and I will create it" },
+                { "id": "e2a2", "text": "Send timing: 3–5 days after Email 1" },
+                { "id": "e2a3", "text": "Goal: introduce Internal Literacy as a concept, build curiosity, invite replies" }
+              ]
+            },
+            {
+              "id": "e2b",
+              "text": "Opening: Reference replies from Email 1 — 'So many of you wrote back, and what you said stopped me in my tracks'",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "e2c",
+              "text": "Body: Introduce the concept of Internal Literacy — what it means, why it changes everything",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "e2d",
+              "text": "Include one specific example: a posture (e.g., Standing Bow) and what internal literacy reveals in it",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "e2e",
+              "text": "Photo: Use the Colorado mountain portrait (close-up) — warm, thoughtful, personal",
+              "priority": "low",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "e2f",
+              "text": "Soft CTA: 'Reply and tell me — what posture do you most want to understand from the inside?'",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "e2g",
+              "text": "P.S.: Mention you're working on a guide — plant the seed for the lead magnet",
+              "priority": "low",
+              "notes": "",
+              "subtasks": []
+            }
           ]
         },
         {
           "id": "email3",
           "title": "Email 3 — The Lead Magnet Offer",
           "items": [
-            { "id": "e3a", "text": "Subject line: 'I made you something (it's free)'", "priority": "high" },
-            { "id": "e3b", "text": "Body: Announce the free guide — '5 Postures That Changed Everything'" },
-            { "id": "e3c", "text": "Explain what's inside: what they'll learn, what they'll feel, why it matters" },
-            { "id": "e3d", "text": "Clear CTA button: 'Download Your Free Guide'" },
-            { "id": "e3e", "text": "Link to your Kajabi opt-in landing page" },
-            { "id": "e3f", "text": "Note: this email goes to your full Mailchimp list of 2,329 — it's your first funnel entry point" }
+            {
+              "id": "e3a",
+              "text": "Subject line: 'I made you something (it's free)'",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "e3a1", "text": "Tell Manus (me) when your lead magnet PDF is ready — I will build this email in Mailchimp for you" },
+                { "id": "e3a2", "text": "Send timing: 3–4 days after Email 2" },
+                { "id": "e3a3", "text": "This email goes to your full list of 2,329 — it is your biggest opportunity to grow your Kajabi opt-in list" }
+              ]
+            },
+            {
+              "id": "e3b",
+              "text": "Body: Announce the free guide — '5 Postures That Changed Everything'",
+              "priority": "high",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "e3c",
+              "text": "Explain what's inside: what they'll learn, what they'll feel, why it matters",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "e3d",
+              "text": "Clear CTA button: 'Download Your Free Guide'",
+              "priority": "high",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "e3e",
+              "text": "Link to your Kajabi opt-in landing page",
+              "priority": "high",
+              "notes": "",
+              "subtasks": []
+            }
           ]
         },
         {
-          "id": "email4",
+          "id": "emails4-7",
           "title": "Emails 4–7 — Nurture Sequence (Post Lead Magnet)",
           "items": [
-            { "id": "e4a", "text": "Email 4 (Day 1 after download): 'Did you get a chance to try it?' — check in, answer questions" },
-            { "id": "e4b", "text": "Email 5 (Day 3): Deep dive on one concept from the guide — build authority and connection" },
-            { "id": "e4c", "text": "Email 6 (Day 5): Student transformation story — someone whose practice changed through this approach" },
-            { "id": "e4d", "text": "Email 7 (Day 7): Soft introduction to the mini-course — 'If you want to go deeper, I've built something for you'" },
-            { "id": "e4e", "text": "Set these 4 emails up as an automated sequence in Kajabi (triggered by lead magnet download)" }
+            {
+              "id": "e4a",
+              "text": "Email 4 (Day 1 after download): 'Did you get a chance to try it?' — check in, encourage action",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": [
+                { "id": "e4a1", "text": "This is an automated email set up in Kajabi — triggered when someone downloads the lead magnet" },
+                { "id": "e4a2", "text": "Tell Manus (me) when your Kajabi is set up — I will write the copy and guide you through setting up the automation" }
+              ]
+            },
+            {
+              "id": "e4b",
+              "text": "Email 5 (Day 3): Deep dive on one concept from the guide — build authority",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "e4c",
+              "text": "Email 6 (Day 5): Student transformation story — someone whose practice changed",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "e4d",
+              "text": "Email 7 (Day 7): Soft introduction to the mini-course — 'If you want to go deeper...'",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "e4e",
+              "text": "Set these 4 emails up as an automated sequence in Kajabi (triggered by lead magnet download)",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "e4e1", "text": "From Kajabi Dashboard → Marketing → Automations → New Automation" },
+                { "id": "e4e2", "text": "Trigger: 'Form submitted' → select your lead magnet opt-in form" },
+                { "id": "e4e3", "text": "Add Action: 'Send Email' → create Email 4 content → set delay to 1 day" },
+                { "id": "e4e4", "text": "Add Action: 'Send Email' → Email 5 → delay 3 days" },
+                { "id": "e4e5", "text": "Add Action: 'Send Email' → Email 6 → delay 5 days" },
+                { "id": "e4e6", "text": "Add Action: 'Send Email' → Email 7 → delay 7 days" },
+                { "id": "e4e7", "text": "Click Publish → your nurture sequence is now live and automatic" }
+              ]
+            }
           ]
         },
         {
-          "id": "email5",
+          "id": "sales-sequence",
           "title": "Sales Sequence (Mini-Course Launch)",
           "items": [
-            { "id": "e5a", "text": "Email 8: Launch announcement — 'It's here. Internal Literacy: 4 Weeks to Feeling Your Practice'" },
-            { "id": "e5b", "text": "Email 9 (Day 2): What's inside — module breakdown, video count, what they'll feel by Week 4" },
-            { "id": "e5c", "text": "Email 10 (Day 4): FAQ email — answer the 5 most common questions/objections" },
-            { "id": "e5d", "text": "Email 11 (Day 6): Testimonial email — student story, before/after, specific transformation" },
-            { "id": "e5e", "text": "Email 12 (Day 7): Last chance — cart closes tonight, personal note from Ann" }
+            {
+              "id": "e5a",
+              "text": "Email 8: Launch announcement — 'It's here. Internal Literacy: 4 Weeks to a Deeper Practice'",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "e5a1", "text": "Tell Manus (me) your course launch date — I will build and schedule this email in Mailchimp" }
+              ]
+            },
+            {
+              "id": "e5b",
+              "text": "Email 9 (Day 2): What's inside — module breakdown, video count, what they will feel",
+              "priority": "high",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "e5c",
+              "text": "Email 10 (Day 4): FAQ email — answer the 5 most common questions and objections",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "e5d",
+              "text": "Email 11 (Day 6): Testimonial email — student story, before/after, specific transformation",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "e5e",
+              "text": "Email 12 (Day 7): Last chance — cart closes tonight, personal note from Ann",
+              "priority": "high",
+              "notes": "",
+              "subtasks": []
+            }
           ]
         }
       ]
@@ -279,54 +615,225 @@
     {
       "id": "launch",
       "title": "Phase 4: Launch & Systems",
-      "subtitle": "Website, Social & Ongoing Automation",
-      "accentColor": "#84A89C",
-      "days": "Days 24–30",
+      "subtitle": "Days 26–30 — Go live and automate",
+      "accentColor": "#2F3E46",
+      "days": "Days 26–30",
       "sections": [
         {
           "id": "website",
           "title": "Website Integration",
           "items": [
-            { "id": "w1", "text": "Add a 'Free Guide' banner or popup to yogaismedicine.com linking to your Kajabi opt-in page", "priority": "high" },
-            { "id": "w2", "text": "Add an 'Online Courses' page or nav item to your website — link to your Kajabi storefront" },
-            { "id": "w3", "text": "Update your About page bio to mention your online offerings" },
-            { "id": "w4", "text": "Add the Colorado mountain portrait as your new bio photo on the website" },
-            { "id": "w5", "text": "Ensure your website footer has links to: Free Guide, Mini-Course, Email List signup" }
+            {
+              "id": "w1",
+              "text": "Add a 'Free Guide' banner or popup to yogaismedicine.com linking to your Kajabi opt-in page",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "w1a", "text": "Tell Manus (me) what website platform yogaismedicine.com is built on (WordPress, Squarespace, Wix, etc.)" },
+                { "id": "w1b", "text": "Once confirmed, I will write the banner copy and provide the embed code or instructions for your specific platform" },
+                { "id": "w1c", "text": "Banner copy suggestion: 'Free Guide: 5 Postures That Changed Everything → Download Now'" }
+              ]
+            },
+            {
+              "id": "w2",
+              "text": "Add an 'Online Courses' page or nav item to your website — link to your Kajabi sales page",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "w2a", "text": "In your website editor, add 'Courses' or 'Online Learning' to your main navigation" },
+                { "id": "w2b", "text": "Link it to your Kajabi sales page URL" },
+                { "id": "w2c", "text": "Add a brief description: 'Deepen your practice with Ann's online courses — available anywhere, anytime'" }
+              ]
+            },
+            {
+              "id": "w3",
+              "text": "Update your About page bio to mention your online offerings",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "w4",
+              "text": "Add the Colorado mountain portrait as your new bio photo on the website",
+              "priority": "low",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "w5",
+              "text": "Ensure your website footer has links to: Free Guide, Mini-Course, Email Signup",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            }
           ]
         },
         {
           "id": "social",
           "title": "Social Media Launch",
           "items": [
-            { "id": "s1", "text": "Instagram: announce the free guide with a Reel — film yourself explaining Internal Literacy in 60 seconds", "priority": "high" },
-            { "id": "s2", "text": "Instagram bio: update link to your Kajabi opt-in page (or use Linktree with guide + course links)" },
-            { "id": "s3", "text": "Facebook: share the same Reel + a longer written post about your teaching philosophy" },
-            { "id": "s4", "text": "YouTube: record a 10-minute 'Introduction to Internal Literacy' video — evergreen traffic" },
-            { "id": "s5", "text": "Pin the free guide announcement to the top of your Instagram and Facebook profiles" }
+            {
+              "id": "s1",
+              "text": "Instagram: announce the free guide with a Reel — film yourself explaining what Internal Literacy is",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "s1a", "text": "Script (30–60 seconds): 'I've been teaching yoga for 20 years and there is one thing I wish someone had told me on day one — [pause] — it's called Internal Literacy. Here is what it means and why it changes everything...'" },
+                { "id": "s1b", "text": "End with: 'I made a free guide. Link in bio.'" },
+                { "id": "s1c", "text": "Film in good light, facing the camera, in your teaching space or outdoors" },
+                { "id": "s1d", "text": "Caption: write 3–5 sentences expanding on the concept + call to action + hashtags" },
+                { "id": "s1e", "text": "Tell Manus (me) when you want to post — I can write the full caption for you in your voice" }
+              ]
+            },
+            {
+              "id": "s2",
+              "text": "Instagram bio: update link to your Kajabi opt-in page",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "s2a", "text": "Go to Instagram → Edit Profile → Website → paste your Kajabi opt-in page URL" },
+                { "id": "s2b", "text": "Update bio text to include: 'Free guide → link below' or 'Download my free Internal Literacy guide → link in bio'" }
+              ]
+            },
+            {
+              "id": "s3",
+              "text": "Facebook: share the same Reel + a longer written post about your teaching philosophy",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "s4",
+              "text": "YouTube: record a 10-minute 'Introduction to Internal Literacy' video as a free preview",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "s5",
+              "text": "Pin the free guide announcement to the top of your Instagram and Facebook profiles",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            }
           ]
         },
         {
           "id": "automation",
           "title": "Automation & Passive Systems",
           "items": [
-            { "id": "a1", "text": "Kajabi pipeline: build a 3-step pipeline — Opt-in page → Thank you page → Email sequence start", "priority": "high" },
-            { "id": "a2", "text": "Zapier: new Kajabi customer → add tag 'customer' in Mailchimp → remove from prospect sequences" },
-            { "id": "a3", "text": "Kajabi: set up affiliate program for students who want to refer others (10–20% commission)" },
-            { "id": "a4", "text": "Create a 'Welcome' automated email for new Mailchimp subscribers who haven't yet downloaded the guide" },
-            { "id": "a5", "text": "Set a monthly calendar reminder: review Kajabi analytics, email open rates, and course enrollment numbers" },
-            { "id": "a6", "text": "Set a quarterly reminder: update the lead magnet with new insights, refresh email sequences" }
+            {
+              "id": "a1",
+              "text": "Kajabi pipeline: build a 3-step pipeline — Opt-in page → Thank you page → Nurture sequence",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "a1a", "text": "From Kajabi Dashboard → Marketing → Pipelines → New Pipeline → choose 'Lead Magnet' template" },
+                { "id": "a1b", "text": "Step 1: connect your existing opt-in landing page" },
+                { "id": "a1c", "text": "Step 2: connect your Thank You page" },
+                { "id": "a1d", "text": "Step 3: connect your email automation sequence" },
+                { "id": "a1e", "text": "Click Publish → your full lead magnet funnel is now live and automated" }
+              ]
+            },
+            {
+              "id": "a2",
+              "text": "Kajabi-Mailchimp sync: new Kajabi customer → tag 'kajabi-customer' in Mailchimp automatically",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "a2a", "text": "This is handled by Manus (me) via the Mailchimp API — tell me when your Kajabi offer is live and I will set up the tagging automation" },
+                { "id": "a2b", "text": "What will happen automatically: new buyer → tagged 'kajabi-customer' in Mailchimp → removed from 'prospect' segment → added to 'customer' segment" }
+              ]
+            },
+            {
+              "id": "a3",
+              "text": "Kajabi: set up affiliate program for students who want to refer others",
+              "priority": "low",
+              "notes": "",
+              "subtasks": [
+                { "id": "a3a", "text": "From Kajabi Dashboard → Settings → Affiliates → Enable Affiliates" },
+                { "id": "a3b", "text": "Set commission rate: 20–30% is standard for digital courses" },
+                { "id": "a3c", "text": "Create an affiliate sign-up page — Kajabi generates this automatically" },
+                { "id": "a3d", "text": "Invite your most engaged students to become affiliates after your first launch" }
+              ]
+            },
+            {
+              "id": "a4",
+              "text": "Create a 'Welcome' automated email for new Mailchimp subscribers",
+              "priority": "high",
+              "notes": "",
+              "subtasks": [
+                { "id": "a4a", "text": "Tell Manus (me) to build this — I will create it in Mailchimp as an automated welcome email" },
+                { "id": "a4b", "text": "Triggered by: new subscriber joins your Mailchimp audience" },
+                { "id": "a4c", "text": "Content: warm welcome, who you are, what they can expect, link to free guide" }
+              ]
+            },
+            {
+              "id": "a5",
+              "text": "Set a monthly calendar reminder: review Kajabi analytics and email open rates",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": [
+                { "id": "a5a", "text": "Set a recurring reminder on the 1st of each month: 'Review Kajabi + Mailchimp analytics'" },
+                { "id": "a5b", "text": "What to review: Kajabi — course completions, new purchases, pipeline conversions; Mailchimp — open rates, click rates, unsubscribes, list growth" },
+                { "id": "a5c", "text": "Share the numbers with Manus (me) and I will help you interpret them and suggest next steps" }
+              ]
+            },
+            {
+              "id": "a6",
+              "text": "Set a quarterly reminder: update the lead magnet and refresh email sequences",
+              "priority": "low",
+              "notes": "",
+              "subtasks": []
+            }
           ]
         },
         {
           "id": "revenue",
           "title": "Revenue Projections & Goals",
           "items": [
-            { "id": "r1", "text": "Month 1 goal: 50 lead magnet downloads, 5 mini-course sales ($235)" },
-            { "id": "r2", "text": "Month 3 goal: 200 downloads, 20 mini-course sales ($940), 2 signature course founding members ($594)" },
-            { "id": "r3", "text": "Month 6 goal: 500 downloads, 50 mini-course sales ($2,350), 10 signature course students ($2,970)" },
-            { "id": "r4", "text": "Month 12 goal: 1,000+ downloads, 100 mini-course sales/year ($4,700), 30 signature course students ($8,910) = ~$13,610/year passive" },
-            { "id": "r5", "text": "Track weekly: new subscribers, lead magnet downloads, course sales, email open rates" },
-            { "id": "r6", "text": "Celebrate every milestone — this is a practice, not a sprint. Each step compounds." }
+            {
+              "id": "r1",
+              "text": "Month 1 goal: 50 lead magnet downloads, 5 mini-course sales ($235)",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "r2",
+              "text": "Month 3 goal: 200 downloads, 20 mini-course sales ($940), 2 signature course inquiries",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "r3",
+              "text": "Month 6 goal: 500 downloads, 50 mini-course sales ($2,350), 10 signature course students",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "r4",
+              "text": "Month 12 goal: 1,000+ downloads, 100 mini-course sales/year ($4,700), recurring revenue established",
+              "priority": "medium",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "r5",
+              "text": "Track weekly: new subscribers, lead magnet downloads, course sales, email open rates",
+              "priority": "high",
+              "notes": "",
+              "subtasks": []
+            },
+            {
+              "id": "r6",
+              "text": "Celebrate every milestone — this is a practice, not a sprint. Each step forward matters.",
+              "priority": "low",
+              "notes": "",
+              "subtasks": []
+            }
           ]
         }
       ]
