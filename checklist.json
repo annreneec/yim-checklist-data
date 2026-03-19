@@ -722,6 +722,64 @@
               ]
             }
           ]
+        },
+        {
+          "id": "hybrid-strategy",
+          "title": "Hybrid Content Strategy Setup",
+          "accentColor": "#52796F",
+          "items": [
+            {
+              "id": "hs1",
+              "text": "Define your three product tiers in Kajabi",
+              "subtasks": [
+                "Tier 1 (Free): Lead magnet landing page \u2014 PDF guide + 1 free audio class",
+                "Tier 2 ($47 one-time): 'Original Hot Yoga: Your First 30 Days' \u2014 4-week drip mini-course",
+                "Tier 3 ($29\u2013$39/mo): 'The Full Practice Library' \u2014 static library + monthly new content",
+                "In Kajabi: go to Products \u2192 Create New Product \u2192 select 'Course' for Tiers 1 and 2, 'Membership' for Tier 3",
+                "Name Tier 2 course: 'Original Hot Yoga: Your First 30 Days'",
+                "Name Tier 3 membership: 'The Full Practice Library'"
+              ]
+            },
+            {
+              "id": "hs2",
+              "text": "Set up the Foundations Mini-Course (Tier 2 \u2014 $47 drip course)",
+              "subtasks": [
+                "In Kajabi: Products \u2192 select your Tier 2 course \u2192 go to Content",
+                "Create 4 modules: Week 1 (Your First Practice), Week 2 (Understanding the Postures), Week 3 (Building Your Practice), Week 4 (Going Deeper)",
+                "Week 1: Upload 1 introductory 90-min audio class + add a short welcome text post",
+                "Week 2: Upload 2 posture tutorial recordings + add written posture guide as a PDF or text post",
+                "Week 3: Upload 1 shorter class (60 or 75 min) + add breathing guidance audio",
+                "Week 4: Upload 1 therapeutic sequence + add 'What's Next' text post inviting upgrade to Full Library",
+                "Set drip schedule: Settings \u2192 Drip \u2192 Week 1 available immediately, Week 2 unlocks Day 8, Week 3 Day 15, Week 4 Day 22",
+                "Set price: Products \u2192 Offers \u2192 Create Offer \u2192 $47 one-time payment",
+                "Add upsell: after Week 4 completion, trigger automated email inviting upgrade to Full Library Membership"
+              ]
+            },
+            {
+              "id": "hs3",
+              "text": "Set up the Full Library Membership (Tier 3 \u2014 $29\u2013$39/month)",
+              "subtasks": [
+                "In Kajabi: Products \u2192 select your Membership product \u2192 go to Content",
+                "Create these library categories as separate sections: '90-Minute Audio Classes', '60 & 75-Minute Audio Classes', 'Therapeutic Audio Sequences', 'Video Classes', 'Posture Tutorials', 'Yoga Homework & Resources'",
+                "Set price: Products \u2192 Offers \u2192 Create Offer \u2192 choose Monthly Recurring \u2192 set price at $29 or $39/month",
+                "Enable 'Founding Member' offer: create a second offer at $19\u2013$24/month available only during launch window",
+                "Set up monthly drip slot: create a 'Monthly New Content' section \u2014 this is where you upload each month's new class on the 1st",
+                "Set up 'Ann's Monthly Note' as a recurring post template in the Monthly New Content section"
+              ]
+            },
+            {
+              "id": "hs4",
+              "text": "Configure the upsell funnel from mini-course to membership",
+              "subtasks": [
+                "In Kajabi: Automations \u2192 Create Automation",
+                "Trigger: 'Course completed' (Tier 2 mini-course)",
+                "Action 1: Send email \u2014 subject 'You did it \u2014 here's your alumni offer' with link to Founding Member membership offer",
+                "Action 2: Apply tag 'mini-course-graduate' to the contact",
+                "Action 3: Wait 3 days \u2192 send follow-up email if they have not yet joined the membership",
+                "Set the Founding Member offer to expire 7 days after the email is sent (use Kajabi's offer expiry setting)"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1389,6 +1447,164 @@
               "priority": "low",
               "notes": "",
               "subtasks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "library-migration",
+      "title": "Phase 5: Class Library Migration",
+      "description": "Migrate your 60+ existing recordings from WordPress to Kajabi, organized for maximum discoverability and student experience.",
+      "sections": [
+        {
+          "id": "audio-migration",
+          "title": "Audio Library Migration",
+          "accentColor": "#84A89C",
+          "items": [
+            {
+              "id": "am1",
+              "text": "Audit and categorize all 30+ audio recordings",
+              "subtasks": [
+                "List all audio recordings currently in your WordPress Members Classroom",
+                "Sort into categories: 90-Minute Classes, 60\u201375 Minute Classes, Therapeutic Sequences, Intermediate/Enrichment, Special Classes",
+                "Note the file format for each (MP3 preferred for Kajabi audio uploads)",
+                "Identify any recordings that need re-recording or quality improvement before migration"
+              ]
+            },
+            {
+              "id": "am2",
+              "text": "Upload audio library to Kajabi",
+              "subtasks": [
+                "In Kajabi: go to your Full Library Membership product \u2192 Content",
+                "For each category section, click 'Add Post' \u2192 select 'Audio' as the post type",
+                "Upload the MP3 file directly to Kajabi (Kajabi hosts audio natively \u2014 no Vimeo needed for audio)",
+                "Add a title, brief description (2\u20133 sentences about the class), and duration to each post",
+                "Recommended title format: '[Duration] \u2014 [Theme/Focus] \u2014 [Special notes if any]' e.g. '90 Min \u2014 Full Bikram Series \u2014 Recorded Live'",
+                "Upload in batches of 5\u201310 per session to avoid browser timeouts"
+              ]
+            },
+            {
+              "id": "am3",
+              "text": "Set up audio library navigation and search",
+              "subtasks": [
+                "In Kajabi: Membership \u2192 Customize \u2192 ensure each category section has a clear title and description",
+                "Add a 'Start Here' post at the top of the library with a 200-word guide to navigating the library",
+                "Add a 'Recommended Sequences' post that suggests 3\u20134 learning paths (e.g., 'New to Bikram', 'Therapeutic Focus', 'Building Stamina')"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "video-migration",
+          "title": "Video Library Migration",
+          "accentColor": "#52796F",
+          "items": [
+            {
+              "id": "vm1",
+              "text": "Audit and categorize all 30+ video recordings",
+              "subtasks": [
+                "List all video recordings currently in your WordPress Members Classroom and on Vimeo",
+                "Sort into categories: 90-Minute Full Classes, Shorter Classes (60\u201375 min), Five Tibetan Rites, Therapeutic Practices",
+                "Note which videos are already on Vimeo (you will embed these in Kajabi rather than re-uploading)",
+                "Note which videos need to be uploaded fresh to Vimeo first"
+              ]
+            },
+            {
+              "id": "vm2",
+              "text": "Embed Vimeo videos into Kajabi membership",
+              "subtasks": [
+                "For each video: go to Vimeo \u2192 open the video \u2192 click Share \u2192 copy the video URL",
+                "In Kajabi: Membership \u2192 Content \u2192 Add Post \u2192 select 'Video' \u2192 paste the Vimeo URL",
+                "Kajabi will automatically embed the Vimeo player \u2014 no need to re-upload the video file",
+                "Add title, description, and duration to each video post",
+                "Set Vimeo privacy to 'Only on sites I choose' and add learn.yogaismedicine.com as an allowed domain"
+              ]
+            },
+            {
+              "id": "vm3",
+              "text": "Create video library navigation",
+              "subtasks": [
+                "Organize video posts into the same category structure as the audio library for consistency",
+                "Add thumbnail images to video posts \u2014 use a still frame from the video or your brand-colored image",
+                "Add a 'Video vs. Audio: Which Should I Use?' post explaining the difference and when each is helpful"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wordpress-transition",
+          "title": "WordPress to Kajabi Transition",
+          "accentColor": "#354F52",
+          "items": [
+            {
+              "id": "wt1",
+              "text": "Notify existing WordPress members of the migration",
+              "subtasks": [
+                "I will write and send this email via Mailchimp \u2014 just confirm the date you want to send it",
+                "Email subject: 'Your class library has a new home \u2014 here's how to access it'",
+                "Offer existing members a Founding Member rate ($19\u2013$24/mo) as a loyalty reward",
+                "Include a step-by-step guide for creating their Kajabi account and accessing the library"
+              ]
+            },
+            {
+              "id": "wt2",
+              "text": "Update WordPress Members Classroom redirect",
+              "subtasks": [
+                "Log into WordPress admin \u2192 Pages \u2192 find 'Bikram Yoga Online Members' page",
+                "Replace the page content with a simple redirect message: 'Our class library has moved to our new Online Studio at learn.yogaismedicine.com'",
+                "Add a large button linking to learn.yogaismedicine.com",
+                "Keep the page live (do not delete it) so existing bookmarks still work"
+              ]
+            },
+            {
+              "id": "wt3",
+              "text": "Add 'Online Studio' link to WordPress navigation",
+              "subtasks": [
+                "Log into WordPress admin \u2192 Appearance \u2192 Menus",
+                "Add a new Custom Link menu item: Label = 'Online Studio', URL = https://learn.yogaismedicine.com",
+                "Place it in the main navigation menu, ideally between 'Resources' and 'Contact'",
+                "Consider adding a small badge or indicator like 'New' next to it for the first 3 months"
+              ]
+            },
+            {
+              "id": "wt4",
+              "text": "Set up Kajabi\u2013Mailchimp integration for automatic subscriber tagging",
+              "subtasks": [
+                "In Kajabi: Settings \u2192 Integrations \u2192 find Mailchimp \u2192 click Connect",
+                "Enter your Mailchimp API key: (stored securely \u2014 ask me to retrieve it when needed)",
+                "Map Kajabi events to Mailchimp tags: Purchase of Tier 2 \u2192 tag 'mini-course-buyer'; Membership signup \u2192 tag 'library-member'; Cancellation \u2192 tag 'churned-member'",
+                "Test the integration: create a test purchase and verify the tag appears in Mailchimp within 5 minutes",
+                "I will handle all Mailchimp segmentation and email sending once this integration is active"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "monthly-rhythm",
+          "title": "Monthly Drip Content Rhythm",
+          "accentColor": "#84A89C",
+          "items": [
+            {
+              "id": "mr1",
+              "text": "Establish your monthly content release schedule",
+              "subtasks": [
+                "Choose a release date: the 1st of each month is recommended for predictability",
+                "Your monthly contribution: upload 1 new class recording to Kajabi's 'Monthly New Content' section",
+                "My monthly contribution: write Ann's Monthly Note (200-word reflection) based on the theme of your new class \u2014 you dictate the theme to me",
+                "I will write and send the monthly member email via Mailchimp on the 1st of each month",
+                "Set a recurring reminder: on the 25th of each month, record or upload your new class so it's ready for the 1st"
+              ]
+            },
+            {
+              "id": "mr2",
+              "text": "Create the first monthly content release",
+              "subtasks": [
+                "Choose a theme for Month 1 (e.g., 'Returning to Your Practice', 'The Foundation Series', 'Spring Renewal')",
+                "Upload the Month 1 class to Kajabi: Membership \u2192 Monthly New Content \u2192 Add Post",
+                "Tell me the theme and any notes about the class \u2014 I will write Ann's Monthly Note",
+                "I will draft the Month 1 member email for your review before sending"
+              ]
             }
           ]
         }
