@@ -38,7 +38,8 @@
                   "id": "k1e",
                   "text": "PLAN NOTE: Kajabi is $179/month (Basic plan) after your trial. This replaces Unbounce (~$99-149/month) and adds course hosting. Keep Mailchimp for now so Manus can continue sending your email campaigns."
                 }
-              ]
+              ],
+              "completedByDefault": true
             },
             {
               "id": "k2",
@@ -82,7 +83,8 @@
                   "id": "k2i",
                   "text": "CONNECT STRIPE (Payments): From Dashboard \u2192 Settings \u2192 click 'Integrations & Webhooks' in the left menu \u2192 scroll to 'Third-party payment provider' \u2192 click 'View third-party payment provider' \u2192 click 'Connect' \u2192 log in with your existing Stripe account or create a new one \u2192 follow the on-screen prompts \u2192 click Submit when done. You will be redirected back to Kajabi when complete."
                 }
-              ]
+              ],
+              "completedByDefault": true
             },
             {
               "id": "k3",
@@ -122,7 +124,8 @@
                   "id": "k3h",
                   "text": "PREVIEW & SAVE: Use the real-time preview on the right to see how your changes look before saving. When satisfied, click Save. Note: Pages and emails you have already customized will NOT automatically update \u2014 you will need to sync them individually using the globe icon (Style Guide sync) within each page or email editor."
                 }
-              ]
+              ],
+              "completedByDefault": true
             },
             {
               "id": "k4",
@@ -150,7 +153,8 @@
                   "id": "k4e",
                   "text": "Click Save \u2014 all automated Kajabi emails (purchase confirmations, course access, etc.) will now show your logo and brand colors."
                 }
-              ]
+              ],
+              "completedByDefault": true
             }
           ]
         },
