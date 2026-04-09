@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16",
+  "lastUpdated": "April 09, 2026",
   "phases": [
     {
       "id": "foundation",
@@ -170,7 +170,8 @@
               "subtasks": [
                 {
                   "id": "km1a",
-                  "text": "STEP 1 \u2014 Enable Mailchimp integration: Dashboard \u2192 Settings \u2192 click 'Third Party Integrations' in the left menu \u2192 find Mailchimp in the list \u2192 toggle it ON \u2192 a field will appear asking for your Mailchimp API key \u2192 paste: [YOUR-MAILCHIMP-API-KEY] \u2192 click Save"
+                  "text": "STEP 1 \u2014 Enable Mailchimp integration: Dashboard \u2192 Settings \u2192 click 'Third Party Integrations' in the left menu \u2192 find Mailchimp in the list \u2192 toggle it ON \u2192 a field will appear asking for your Mailchimp API key \u2192 paste: [YOUR-MAILCHIMP-API-KEY] \u2192 click Save",
+                  "completedByDefault": true
                 },
                 {
                   "id": "km1b",
@@ -192,7 +193,9 @@
                   "id": "km1f",
                   "text": "STEP 6 \u2014 Tell Manus once this is live: I will set up the Mailchimp automation rules so buyers are tagged 'kajabi-customer' and lead magnet downloaders are tagged 'lead-magnet' automatically"
                 }
-              ]
+              ],
+              "detail": "Mailchimp Audience ID: e9c86301e3 (use this when Kajabi asks which audience to sync)",
+              "completedByDefault": true
             },
             {
               "id": "km2",
